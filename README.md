@@ -1,9 +1,9 @@
-# Example Isomorphic TS/JS Lib Template _(@interop/isomorphic-lib-template)_
+# Base58 Isomorphic Encoder/Decoder for JS and TS _(@interop/base58-universal)_
 
-[![Build status](https://img.shields.io/github/workflow/status/interop-alliance/isomorphic-lib-template/Node.js%20CI)](https://github.com/interop-alliance/isomorphic-lib-template/actions?query=workflow%3A%22Node.js+CI%22)
-[![NPM Version](https://img.shields.io/npm/v/@interop/isomorphic-lib-template.svg)](https://npm.im/@interop/isomorphic-lib-template)
+[![Build status](https://img.shields.io/github/workflow/status/interop-alliance/base58-universal/Node.js%20CI)](https://github.com/interop-alliance/base58-universal/actions?query=workflow%3A%22Node.js+CI%22)
+[![NPM Version](https://img.shields.io/npm/v/@interop/base58-universal.svg)](https://npm.im/@interop/base58-universal)
 
-> A Typescript/Javascript isomorphic library template, for use in the browser, Node.js, and React Native.
+> Isomorphic JS encode/decode library using the [Base58 (Bitcoin) encoding scheme](https://github.com/digitalbazaar/base58-spec) (for Node.js and browsers).
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ TBD
 To install via NPM:
 
 ```
-npm install @interop/isomorphic-lib-template
+npm install @interop/base58-universal
 ```
 
 ### Development
@@ -39,8 +39,8 @@ npm install @interop/isomorphic-lib-template
 To install locally (for development):
 
 ```
-git clone https://github.com/interop-alliance/isomorphic-lib-template.git
-cd isomorphic-lib-template
+git clone https://github.com/interop-alliance/base58-universal.git
+cd base58-universal
 npm install
 ```
 
@@ -57,4 +57,10 @@ If editing the Readme, please conform to the
 
 ## License
 
-[MIT License](LICENSE.md) © 2021 Interop Alliance and Dmitri Zagidulin.
+TypeScript implementation: [MIT License](LICENSE.md) © 2021 Interop Alliance and Dmitri Zagidulin.
+
+Isomorphic JS implementation from [Digital Bazaar/`base58-universal`](https://github.com/digitalbazaar/base58-universal) 
+under the New BSD License (3-clause).
+
+Encoder/decoder original implementation from
+[base-x](https://github.com/cryptocoinjs/base-x) under the MIT License.

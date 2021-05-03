@@ -1,5 +1,5 @@
 {
-  "name": "@interop/isomorphic-lib-template",
+  "name": "@interop/base58-universal",
   "description": "A Typescript/Javascript isomorphic library template, for use in the browser, Node.js, and React Native.",
   "version": "0.0.1",
   "scripts": {
@@ -61,9 +61,10 @@
   "mocha": {
     "require": "ts-node/register",
     "extension": [
-      "ts"
+      "ts",
+      "js"
     ],
-    "spec": "test/**/*.ts"
+    "spec": "test/**/*.spec.*"
   },
   "nyc": {
     "extension": [
@@ -96,8 +97,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/interop-alliance/isomorphic-lib-template"
+    "url": "https://github.com/interop-alliance/base58-universal"
   },
-  "homepage": "https://github.com/interop-alliance/isomorphic-lib-template",
-  "bugs": "https://github.com/interop-alliance/isomorphic-lib-template/issues"
+  "homepage": "https://github.com/interop-alliance/base58-universal",
+  "bugs": "https://github.com/interop-alliance/base58-universal/issues"
 }
