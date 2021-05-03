@@ -20,6 +20,7 @@
     "LICENSE.md"
   ],
   "main": "dist/index.js",
+  "browser": "dist/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "exports": {
