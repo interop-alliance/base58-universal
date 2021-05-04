@@ -1,7 +1,7 @@
 {
   "name": "@interop/base58-universal",
   "description": "A Typescript/Javascript isomorphic library template, for use in the browser, Node.js, and React Native.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "build": "npm run clear && tsc -p tsconfig.json && ./build-dist.sh",
     "clear": "rimraf dist/*",
