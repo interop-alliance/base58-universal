@@ -9,7 +9,7 @@
     "lint:fix": "eslint --fix .",
     "prepare": "npm run build",
     "rebuild": "npm run clear && npm run build",
-    "test": "npm run lint && npm run test-node",
+    "test": "npm run lint && npm run rebuild && npm run test-node && npm run test-karma",
     "test-karma": "karma start karma.conf.js",
     "test-node": "cross-env NODE_ENV=test TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'test/*.ts'"
   },
@@ -46,7 +46,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^4.3.1",
     "karma": "^6.3.2",
-    "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^3.1.0",
     "karma-mocha": "^2.0.1",
     "karma-mocha-reporter": "^2.2.5",
